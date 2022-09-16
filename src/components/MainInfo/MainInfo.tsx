@@ -34,7 +34,11 @@ const MainInfo: React.FC<MainInfoInterface> = () => {
           </Box>
         </Box>
       </div>
-      <Button endIcon={<BloodtypeOutlined />} onClick={handleWatter}>
+      <Button
+        endIcon={<BloodtypeOutlined />}
+        onClick={handleWatter}
+        size="large"
+      >
         AGREGAR
       </Button>
     </div>
